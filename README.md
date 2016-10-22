@@ -1,4 +1,4 @@
-# 3_Phase_Inverter
+# 3 Phase Inverter Circuit Design Project (for BLDC)
 3 Fazlı Inverter Devresi Tasarım Projesi (FDAM için)
 
 
