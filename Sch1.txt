@@ -1,21 +1,15 @@
-Partlist exported from C:/Users/Cmr/Documents/eagle/IR2101/Sch1.sch at 23.10.2016 17:48
+Partlist exported from C:/Users/Cmr/Documents/eagle/Three Phase Inverter for BLDC/Sch1.sch at 28.10.2016 19:38
 
 Part  Value        Device                Package            Description                          
-C101  1uF          CPOL-EUE2.5-5         E2,5-5             POLARIZED CAPACITOR, European symbol 
-C102  1uF          CPOL-EUE2.5-5         E2,5-5             POLARIZED CAPACITOR, European symbol 
-C103  1uF          CPOL-EUE2.5-5         E2,5-5             POLARIZED CAPACITOR, European symbol 
-C104  22nF         C-EU050-025X075       C050-025X075       CAPACITOR, European symbol           
-C105  22nF         C-EU050-025X075       C050-025X075       CAPACITOR, European symbol           
-C106  22nF         C-EU050-025X075       C050-025X075       CAPACITOR, European symbol           
-C107  22nF         C-EU050-025X075       C050-025X075       CAPACITOR, European symbol           
-C108  22nF         C-EU050-025X075       C050-025X075       CAPACITOR, European symbol           
-C109  22nF         C-EU050-025X075       C050-025X075       CAPACITOR, European symbol           
-C110  100pF        C-EU025-024X044       C025-024X044       CAPACITOR, European symbol           
-C111  100pF        C-EU025-024X044       C025-024X044       CAPACITOR, European symbol           
-C112  100pF        C-EU025-024X044       C025-024X044       CAPACITOR, European symbol           
-C113  100pF        C-EU025-024X044       C025-024X044       CAPACITOR, European symbol           
-C114  1uF          CPOL-EUE2.5-5         E2,5-5             POLARIZED CAPACITOR, European symbol 
-C115  100nF        C-EU050-025X075       C050-025X075       CAPACITOR, European symbol           
+C101  1uF          CPOL-EUSMCA           SMC_A              POLARIZED CAPACITOR, European symbol 
+C102  1uF          CPOL-EUSMCA           SMC_A              POLARIZED CAPACITOR, European symbol 
+C103  1uF          CPOL-EUSMCA           SMC_A              POLARIZED CAPACITOR, European symbol 
+C104  100pF        C-EUC0805             C0805              CAPACITOR, European symbol           
+C105  100pF        C-EUC0805             C0805              CAPACITOR, European symbol           
+C106  100pF        C-EUC0805             C0805              CAPACITOR, European symbol           
+C107  100pF        C-EUC0805             C0805              CAPACITOR, European symbol           
+C108  1uF          CPOL-EUSMCA           SMC_A              POLARIZED CAPACITOR, European symbol 
+C109  100nF        C-EUC1206             C1206              CAPACITOR, European symbol           
 D101  SK26         SCHOTTKY-DIODEDO214AA DO214AA            Schottky Diode                       
 D102  SK26         SCHOTTKY-DIODEDO214AA DO214AA            Schottky Diode                       
 D103  SK26         SCHOTTKY-DIODEDO214AA DO214AA            Schottky Diode                       
@@ -32,20 +26,14 @@ IC101 IR2101SMD    IR2101SMD             SOIC-8
 IC102 IR2101SMD    IR2101SMD             SOIC-8                                                  
 IC103 IR2101SMD    IR2101SMD             SOIC-8                                                  
 JP101 IN           PINHD-1X8             1X08               PIN HEADER                           
-JP102 OUT          PINHD-1X7             1X07               PIN HEADER                           
-JP103              PINHD-1X1             1X01               PIN HEADER                           
-JP104              PINHD-1X1             1X01               PIN HEADER                           
-JP105              PINHD-1X1             1X01               PIN HEADER                           
-JP106              PINHD-1X1             1X01               PIN HEADER                           
-JP107              PINHD-1X1             1X01               PIN HEADER                           
-JP108              PINHD-1X1             1X01               PIN HEADER                           
-JP109              PINHD-1X1             1X01               PIN HEADER                           
-Q101  IRFR024      IRFR024               TO252                                                   
-Q102  IRFR024      IRFR024               TO252                                                   
-Q103  IRFR024      IRFR024               TO252                                                   
-Q104  IRFR024      IRFR024               TO252                                                   
-Q105  IRFR024      IRFR024               TO252                                                   
-Q106  IRFR024      IRFR024               TO252                                                   
+JP102              PINHD-1X4             1X04               PIN HEADER                           
+JP103              PINHD-1X4             1X04               PIN HEADER                           
+Q101  IXTY64N055T  IXTY64N055T           TO252                                                   
+Q102  IXTY64N055T  IXTY64N055T           TO252                                                   
+Q103  IXTY64N055T  IXTY64N055T           TO252                                                   
+Q104  IXTY64N055T  IXTY64N055T           TO252                                                   
+Q105  IXTY64N055T  IXTY64N055T           TO252                                                   
+Q106  IXTY64N055T  IXTY64N055T           TO252                                                   
 R101  1k           R-EU_R0805            R0805              RESISTOR, European symbol            
 R102  1k           R-EU_R0805            R0805              RESISTOR, European symbol            
 R103  1k           R-EU_R0805            R0805              RESISTOR, European symbol            
@@ -77,45 +65,24 @@ R128  0.01         R-EU_R2512            R2512              RESISTOR, European s
 R129  0.01         R-EU_R2512            R2512              RESISTOR, European symbol            
 R130  0.01         R-EU_R2512            R2512              RESISTOR, European symbol            
 R131  0.01         R-EU_R2512            R2512              RESISTOR, European symbol            
-R132  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R133  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R134  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R135  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R136  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R137  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R138  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R139  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R140  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R141  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R142  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R143  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R144  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R145  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R146  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R147  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R148  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R149  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R150  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R151  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R152  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R153  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R154  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R155  1R           R-EU_R0805            R0805              RESISTOR, European symbol            
-R156               R-EU_R0805            R0805              RESISTOR, European symbol            
-R157               R-EU_R0805            R0805              RESISTOR, European symbol            
-R158               R-EU_R0805            R0805              RESISTOR, European symbol            
-R159               R-EU_R0805            R0805              RESISTOR, European symbol            
-R160               R-EU_R0805            R0805              RESISTOR, European symbol            
-R161               R-EU_R0805            R0805              RESISTOR, European symbol            
-R162  1k           R-EU_R0805            R0805              RESISTOR, European symbol            
-R163  1k           R-EU_R0805            R0805              RESISTOR, European symbol            
-R164  27k          R-EU_R0805            R0805              RESISTOR, European symbol            
-R165  3.9k         R-EU_R0805            R0805              RESISTOR, European symbol            
-R166  27k          R-EU_R0805            R0805              RESISTOR, European symbol            
-R167  3.9k         R-EU_R0805            R0805              RESISTOR, European symbol            
-R168  1.8k         R-EU_R0805            R0805              RESISTOR, European symbol            
-R169  1.8k         R-EU_R0805            R0805              RESISTOR, European symbol            
-R170  30k          R-EU_R0805            R0805              RESISTOR, European symbol            
-R171  30k          R-EU_R0805            R0805              RESISTOR, European symbol            
+R132  0.01         R-EU_R2512            R2512              RESISTOR, European symbol            
+R133  0.01         R-EU_R2512            R2512              RESISTOR, European symbol            
+R134               R-EU_R0805            R0805              RESISTOR, European symbol            
+R135               R-EU_R0805            R0805              RESISTOR, European symbol            
+R136               R-EU_R0805            R0805              RESISTOR, European symbol            
+R137               R-EU_R0805            R0805              RESISTOR, European symbol            
+R138               R-EU_R0805            R0805              RESISTOR, European symbol            
+R139               R-EU_R0805            R0805              RESISTOR, European symbol            
+R140  1k           R-EU_R0805            R0805              RESISTOR, European symbol            
+R141  1k           R-EU_R0805            R0805              RESISTOR, European symbol            
+R142  27k          R-EU_R0805            R0805              RESISTOR, European symbol            
+R143  3.9k         R-EU_R0805            R0805              RESISTOR, European symbol            
+R144  27k          R-EU_R0805            R0805              RESISTOR, European symbol            
+R145  3.9k         R-EU_R0805            R0805              RESISTOR, European symbol            
+R146  1.8k         R-EU_R0805            R0805              RESISTOR, European symbol            
+R147  1.8k         R-EU_R0805            R0805              RESISTOR, European symbol            
+R148  30k          R-EU_R0805            R0805              RESISTOR, European symbol            
+R149  30k          R-EU_R0805            R0805              RESISTOR, European symbol            
+R150               R-EU_R0805            R0805              RESISTOR, European symbol            
+R151               R-EU_R0805            R0805              RESISTOR, European symbol            
 U101  MCP6022-I/SN MCP6022-I/SN          SOIC127P600X175-8N IC OPAMP 2.5V DUAL R-R               
-X101  5202-05-N-02 5202-05-N-02          5202-05-N-02       Barrier Blocks Sreies 5202           
