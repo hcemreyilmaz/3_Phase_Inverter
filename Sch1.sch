@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16963,8 +16963,8 @@ Source: AVX .. aphvc.pdf</description>
 </classes>
 <parts>
 <part name="U101" library="Microchip_By_element14_Batch_1" deviceset="MCP6022-I/SN" device=""/>
-<part name="R113" library="resistor" deviceset="R-EU_" device="R0805" value="10"/>
-<part name="R115" library="resistor" deviceset="R-EU_" device="R0805" value="22"/>
+<part name="R113" library="resistor" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R115" library="resistor" deviceset="R-EU_" device="R0805" value="22R"/>
 <part name="V103" library="supply0" deviceset="+12V" device=""/>
 <part name="GND103" library="supply0" deviceset="GND" device=""/>
 <part name="R101" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
@@ -16976,24 +16976,24 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND101" library="supply0" deviceset="GND" device=""/>
 <part name="GND102" library="supply0" deviceset="GND" device=""/>
 <part name="R131" library="rcl" deviceset="R-EU_" device="R2512" value="0.01"/>
-<part name="R149" library="rcl" deviceset="R-EU_" device="R0805" value="30k"/>
+<part name="R149" library="rcl" deviceset="R-EU_" device="R0805" value="27k"/>
 <part name="GND124" library="supply0" deviceset="GND" device=""/>
-<part name="R135" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R134" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R135" library="rcl" deviceset="R-EU_" device="R0805" value="3.9k"/>
+<part name="R134" library="rcl" deviceset="R-EU_" device="R0805" value="68k"/>
 <part name="GND115" library="supply0" deviceset="GND" device=""/>
 <part name="R128" library="rcl" deviceset="R-EU_" device="R2512" value="0.01"/>
 <part name="V102" library="supply0" deviceset="+3V3" device=""/>
 <part name="V110" library="supply0" deviceset="+3V3" device=""/>
 <part name="C109" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="GND106" library="supply0" deviceset="GND" device=""/>
-<part name="R114" library="resistor" deviceset="R-EU_" device="R0805" value="10"/>
+<part name="R114" library="resistor" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="C107" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
-<part name="R147" library="rcl" deviceset="R-EU_" device="R0805" value="1.8k"/>
+<part name="R147" library="rcl" deviceset="R-EU_" device="R0805" value="1.5k"/>
 <part name="R144" library="rcl" deviceset="R-EU_" device="R0805" value="27k"/>
-<part name="R145" library="rcl" deviceset="R-EU_" device="R0805" value="3.9k"/>
+<part name="R145" library="rcl" deviceset="R-EU_" device="R0805" value="2.7k"/>
 <part name="GND121" library="supply0" deviceset="GND" device=""/>
 <part name="R142" library="rcl" deviceset="R-EU_" device="R0805" value="27k"/>
-<part name="R143" library="rcl" deviceset="R-EU_" device="R0805" value="3.9k"/>
+<part name="R143" library="rcl" deviceset="R-EU_" device="R0805" value="2.7k"/>
 <part name="GND120" library="supply0" deviceset="GND" device=""/>
 <part name="V109" library="supply0" deviceset="+3V3" device=""/>
 <part name="R141" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
@@ -17002,9 +17002,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C104" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
 <part name="GND119" library="supply0" deviceset="GND" device=""/>
 <part name="GND118" library="supply0" deviceset="GND" device=""/>
-<part name="R146" library="rcl" deviceset="R-EU_" device="R0805" value="1.8k"/>
+<part name="R146" library="rcl" deviceset="R-EU_" device="R0805" value="1.5k"/>
 <part name="GND123" library="supply0" deviceset="GND" device=""/>
-<part name="R148" library="rcl" deviceset="R-EU_" device="R0805" value="30k"/>
+<part name="R148" library="rcl" deviceset="R-EU_" device="R0805" value="27k"/>
 <part name="C106" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
 <part name="V111" library="supply0" deviceset="+3V3" device=""/>
 <part name="GND122" library="supply0" deviceset="GND" device=""/>
@@ -17017,8 +17017,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R122" library="resistor" deviceset="R-EU_" device="R0805" value="4.7k"/>
 <part name="R123" library="resistor" deviceset="R-EU_" device="R0805" value="4.7k"/>
 <part name="GND109" library="supply0" deviceset="GND" device=""/>
-<part name="R116" library="resistor" deviceset="R-EU_" device="R0805" value="10"/>
-<part name="R118" library="resistor" deviceset="R-EU_" device="R0805" value="22"/>
+<part name="R116" library="resistor" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R118" library="resistor" deviceset="R-EU_" device="R0805" value="22R"/>
 <part name="V104" library="supply0" deviceset="+12V" device=""/>
 <part name="GND104" library="supply0" deviceset="GND" device=""/>
 <part name="R103" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
@@ -17026,30 +17026,30 @@ Source: AVX .. aphvc.pdf</description>
 <part name="V107" library="supply0" deviceset="VBUS" device=""/>
 <part name="GND113" library="supply0" deviceset="GND" device=""/>
 <part name="R132" library="rcl" deviceset="R-EU_" device="R2512" value="0.01"/>
-<part name="R137" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R136" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R137" library="rcl" deviceset="R-EU_" device="R0805" value="3.9k"/>
+<part name="R136" library="rcl" deviceset="R-EU_" device="R0805" value="68k"/>
 <part name="GND116" library="supply0" deviceset="GND" device=""/>
 <part name="R129" library="rcl" deviceset="R-EU_" device="R2512" value="0.01"/>
 <part name="GND107" library="supply0" deviceset="GND" device=""/>
-<part name="R117" library="resistor" deviceset="R-EU_" device="R0805" value="10"/>
+<part name="R117" library="resistor" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="R110" library="resistor" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="R109" library="resistor" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="R124" library="resistor" deviceset="R-EU_" device="R0805" value="4.7k"/>
 <part name="R125" library="resistor" deviceset="R-EU_" device="R0805" value="4.7k"/>
 <part name="GND110" library="supply0" deviceset="GND" device=""/>
-<part name="R119" library="resistor" deviceset="R-EU_" device="R0805" value="10"/>
-<part name="R121" library="resistor" deviceset="R-EU_" device="R0805" value="22"/>
+<part name="R119" library="resistor" deviceset="R-EU_" device="R0805" value="10R"/>
+<part name="R121" library="resistor" deviceset="R-EU_" device="R0805" value="22R"/>
 <part name="V105" library="supply0" deviceset="+12V" device=""/>
 <part name="GND105" library="supply0" deviceset="GND" device=""/>
 <part name="R105" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="R106" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="V108" library="supply0" deviceset="VBUS" device=""/>
 <part name="GND114" library="supply0" deviceset="GND" device=""/>
-<part name="R139" library="rcl" deviceset="R-EU_" device="R0805"/>
-<part name="R138" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R139" library="rcl" deviceset="R-EU_" device="R0805" value="3.9k"/>
+<part name="R138" library="rcl" deviceset="R-EU_" device="R0805" value="68k"/>
 <part name="GND117" library="supply0" deviceset="GND" device=""/>
 <part name="GND108" library="supply0" deviceset="GND" device=""/>
-<part name="R120" library="resistor" deviceset="R-EU_" device="R0805" value="10"/>
+<part name="R120" library="resistor" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="R112" library="resistor" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="R111" library="resistor" deviceset="R-EU_" device="R0805" value="10R"/>
 <part name="R126" library="resistor" deviceset="R-EU_" device="R0805" value="4.7k"/>
@@ -17080,10 +17080,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C103" library="rcl" deviceset="CPOL-EU" device="SMCA" value="1uF"/>
 <part name="C102" library="rcl" deviceset="CPOL-EU" device="SMCA" value="1uF"/>
 <part name="C101" library="rcl" deviceset="CPOL-EU" device="SMCA" value="1uF"/>
-<part name="R150" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R150" library="rcl" deviceset="R-EU_" device="R0805" value="68k"/>
 <part name="V114" library="supply0" deviceset="VBUS" device=""/>
 <part name="GND127" library="supply0" deviceset="GND" device=""/>
-<part name="R151" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R151" library="rcl" deviceset="R-EU_" device="R0805" value="3.9k"/>
 <part name="JP102" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="JP103" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="R130" library="rcl" deviceset="R-EU_" device="R2512" value="0.01"/>
@@ -17112,7 +17112,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND124" gate="1" x="217.17" y="-217.17"/>
 <instance part="R135" gate="G$1" x="107.95" y="-36.83" rot="R90"/>
 <instance part="R134" gate="G$1" x="107.95" y="-24.13" rot="R90"/>
-<instance part="GND115" gate="1" x="107.95" y="-45.72"/>
+<instance part="GND115" gate="1" x="107.95" y="-46.99"/>
 <instance part="R128" gate="G$1" x="60.96" y="-36.83" rot="R90"/>
 <instance part="V102" gate="G$1" x="-85.09" y="-102.87"/>
 <instance part="V110" gate="G$1" x="195.58" y="-163.83"/>
@@ -17347,7 +17347,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="R135" gate="G$1" pin="1"/>
 <pinref part="GND115" gate="1" pin="GND"/>
-<wire x1="107.95" y1="-41.91" x2="107.95" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="-41.91" x2="107.95" y2="-44.45" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND106" gate="1" pin="GND"/>
